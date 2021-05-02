@@ -1,0 +1,92 @@
+.instrument {
+  border:2px solid black;
+  border-radius:8px;
+  text-align:center;
+  width:300px;
+  overflow:hidden;
+  margin:0 10px 20px;
+  float:left;
+}
+
+.instrument:hover {
+  cursor:pointer;
+  color:white;
+}
+
+.fender:hover {
+  background-color:red;
+}
+
+.yamaha:hover {
+  background-color:green;
+}
+
+.maton:hover {
+  background-color:blue;
+}
+
+img {
+  height:200px;
+  margin-top:4px;
+}
+
+.hide {
+  display:none;
+}
+
+button {
+  background-color:orange;
+  height:30px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.cart {
+  position:absolute;
+  right:8px;
+  top:8px;
+}
+
+.popUp, .addNew {
+  height:100%;
+  width:100%;
+  background-color:rgba(103, 103, 103, 0.66);
+  position:absolute;
+  top:0;
+  left:0;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.popUp:hover {
+  color:black;
+}
+
+.popUpContent {
+  width:300px;
+  border: 2px solid black;
+  background-color:white;
+  text-align:center;
+}
+
+.addNewContent {
+  width:500px;
+  border: 2px solid black;
+  background-color:white;
+  text-align:center;
+}
+
+.xButton {
+  float:right;
+  margin-right:10px;
+  cursor:pointer;
+}
+
+.show {
+  display:flex;
+}
+
+input, select {
+  margin-bottom: 8px;
+}
